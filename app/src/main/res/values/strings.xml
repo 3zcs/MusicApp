@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="buy">buy</string>
+    <string name="name">Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="pay">Pay</string>
+    <string name="payment_api">Android Pay API is one of Google service to make development in android much easier</string>
+
+    <string-array name="music">
+        <item>Despacito</item>
+        <item>Wild Thoughts</item>
+        <item>I\'m The One</item>
+        <item>That\'s What I Like</item>
+        <item>Shape Of You</item>
+    </string-array>
+
+    <string-array name="music_artist">
+        <item>Luis Fonsi&#38; Daddy Yankee Featuring Justin Bieber</item>
+        <item>DJ Khaled Featuring</item>
+        <item>DJ Khaled Featuring Justin</item>
+        <item>Bruno Mars</item>
+        <item>Ed Sheeran</item>
+    </string-array>
+
+    <string-array name="music_rate">
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_payment">PaymentActivity</string>
+
+</resources>
