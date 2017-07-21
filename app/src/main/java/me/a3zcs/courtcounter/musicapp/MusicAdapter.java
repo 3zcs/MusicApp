@@ -48,7 +48,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
         int position;
         public MusicViewHolder(View itemView) {
             super(itemView);
-            musicName = itemView.findViewById(android.R.id.text1);
+            musicName = (TextView) itemView.findViewById(android.R.id.text1);
             itemView.setOnClickListener(this);
         }
 
