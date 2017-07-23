@@ -2,8 +2,8 @@ package me.a3zcs.courtcounter.musicapp;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import me.a3zcs.courtcounter.musicapp.databinding.ActivityMusicDetailsBinding;
@@ -31,6 +31,14 @@ public class MusicDetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MusicDetailsActivity.this,PaymentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.buttonBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MusicDetailsActivity.this,MainActivity.class);
                 startActivity(intent);
             }
         });

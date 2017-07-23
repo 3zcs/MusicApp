@@ -33,5 +33,6 @@
     <string name="title_activity_payment">PaymentActivity</string>
     <string name="detail">Detail of music</string>
     <string name="list">List of music</string>
+    <string name="back">Back To Music List</string>
 
 </resources>
