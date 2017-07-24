@@ -5,7 +5,7 @@
     <string name="card_number">Card Number</string>
     <string name="cvv">CVV</string>
     <string name="pay">Pay</string>
-    <string name="payment_api">Android Pay API is one of Google service to make development in android much easier</string>
+    <string name="payment_api">PayPal provide a Restful API, You can use it to support payment in your app, more details developer.paypal.com/docs/api/</string>
 
     <string-array name="music">
         <item>Despacito</item>
@@ -32,7 +32,8 @@
     </string-array>
     <string name="title_activity_payment">PaymentActivity</string>
     <string name="detail">Detail of music</string>
-    <string name="list">List of music</string>
+    <string name="list">List of music name when you click the music you will see details</string>
     <string name="back">Back To Music List</string>
+    <string name="payment">User can pay a music using this screen</string>
 
 </resources>
